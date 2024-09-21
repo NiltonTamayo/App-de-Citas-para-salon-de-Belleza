@@ -1,0 +1,30 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.formulario{
+    width: 100%;
+    margin-top: 5rem; 
+    position: relative;
+}
+
+.campo{
+    display: block; /* Cambiado a flex */
+   
+    margin-bottom: 3rem;
+    
+
+    label{
+        display: inline-block;  /* Asegura que se comporte como bloque pero en línea */
+        width: 30%;  /* O el porcentaje que necesites */
+        margin-right: 1rem;
+    }
+    input{
+        display: inline-block;
+        width: 100%;  /* El input toma el resto del espacio */
+        padding: 1.5rem;
+        margin-top: 2rem;
+        border-radius: 1rem;
+        border: 0.5px solid #c70000;
+        
+    }
+}

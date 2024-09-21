@@ -1,0 +1,18 @@
+@use 'base/variables' as v;
+
+.alerta {
+    width: 100%; /* Asegura que la alerta ocupe todo el ancho */
+    margin-top: 0.5rem; /* Espacio entre el input y la alerta */
+    color: #fff;
+    background-color: #c70000;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    
+
+    &.error {
+        background-color: v.$rojo;
+    }
+    &.exito{
+        background-color: v.$verde;
+    }
+}

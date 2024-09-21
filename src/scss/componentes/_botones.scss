@@ -1,0 +1,13 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.boton {
+    @include m.boton(v.$azul, v.$blanco);
+    border: 0.1rem solid #f60e0e;
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    border-radius: 1rem;
+    
+}

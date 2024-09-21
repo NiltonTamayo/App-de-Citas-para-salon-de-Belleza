@@ -1,0 +1,24 @@
+{
+    "name": "farit/app_salon",
+    "description": "App salon de Belleza",
+    "type": "stable",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+           
+        }
+    },
+    
+    "authors": [
+        {
+            "name": "Farith Nilton"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
